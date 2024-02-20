@@ -1,0 +1,64 @@
+#createBTN {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  line-height: 30px;
+  position: fixed;
+}
+.article-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.article-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.article-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.article-card-content {
+  padding: 15px;
+}
+
+.article-card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.article-card-date {
+  font-size: 0.7rem;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.article-card-category {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #555;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.crudBtn {
+  width: 100px;
+  margin-top: 20px;
+}
+.txt{
+  font-size: 14px;
+}
+
